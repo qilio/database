@@ -1,0 +1,64 @@
+
+
+<html>
+<head>
+       <title> CIS415 FinalProject </title>
+     <iframe width="100%" height="220" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/203288614&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+<body bgcolor="#B40404">
+
+<h3> CIS415 FinalProject </h3>
+
+
+
+<hr>
+
+<p>
+Please Input a student id Number(from 1~14), and it will show this student's simple information:
+<p>
+
+<form action="Student_info.php" method="POST">
+
+<input type="text" name="state"> <br>
+<input type="submit" value="submit">
+<input type="reset" value="erase">
+</form>
+
+
+
+<hr>
+
+
+<p>
+
+Please Select a University, and get its simple information:
+<p>
+
+
+
+<select name = "get_uni_id" form = "uni_id">
+<option value="100">Princeton University</option>
+<option value="101">Harvard University</option>
+<option value="102">Yale University</option>
+<option value="103">Columbia University</option>
+<option value="104">Stanford University</option>
+<option value="105">University of Chicago</option>
+<option value="106">Massachusetts Institute of Technology</option>
+<option value="107">Duke University</option>
+<option value="108">University of Pennsylvania</option>
+<option value="109">California Institute of Technology</option>
+<option value="110">Johns Hopkins University</option>
+<option value="111">University of Oregon</option>
+</select>
+<form action="University_info.php" method="POST" id = "uni_id">
+<input type="submit" value="submit">
+</form>
+
+
+
+<hr>
+
+
+
+</body>
+</html>

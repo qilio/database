@@ -1,0 +1,8 @@
+<?php
+$server = "ix-trusty.cs.uoregon.edu";
+$port =  "3737";
+$dbname = "StudentInfo";
+$user = "qilio";
+$pass = "";
+?>
+
